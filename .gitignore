@@ -1,0 +1,26 @@
+# Virtual Environment
+backend/venv/
+venv/
+
+# Database
+backend/db.sqlite3
+*.sqlite3
+
+# Python Cache & Compiled Files
+**/__pycache__/
+*.py[cod]
+
+# Environment Variables
+*.env
+.env
+
+# Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+

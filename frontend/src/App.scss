@@ -1,0 +1,153 @@
+// src/App.scss
+// Estilos globales para CampusConnect.
+// Modifica o extiende los estilos de Semantic UI de forma organizada.
+
+// ============================================================
+// Variables de colores
+// ============================================================
+$color-primary: #008080;         // Teal (color principal de la plataforma)
+$color-primary-dark: #005f5f;
+$color-bg: #f4f7f9;              // Fondo gris claro
+$color-white: #ffffff;
+$color-text-muted: #6c757d;
+$color-error: #db2828;
+
+// ============================================================
+// Estilos globales
+// ============================================================
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-bg;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// ============================================================
+// Layout general
+// ============================================================
+.admin-layout,
+.client-layout,
+.common-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+// ============================================================
+// Contenedor centrado para formularios (Login / Register)
+// ============================================================
+.login-container,
+.register-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem !important;
+}
+
+.login-segment,
+.register-segment {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  background: $color-white !important;
+  margin: 0 auto;
+}
+
+.login-header,
+.register-header {
+  margin-bottom: 1.5rem !important;
+
+  .sub.header {
+    margin-top: 0.4rem !important;
+    color: $color-text-muted;
+  }
+}
+
+.login-button,
+.register-button {
+  margin-top: 1rem !important;
+}
+
+.login-register-link,
+.register-login-link {
+  margin-top: 1rem !important;
+  text-align: center;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+// ============================================================
+// Dashboard
+// ============================================================
+.dashboard-container {
+  padding-top: 4rem !important;
+}
+
+.dashboard-segment {
+  max-width: 600px;
+  margin: 0 auto !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  background: $color-white !important;
+}
+
+.dashboard-title {
+  color: $color-primary !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.dashboard-email {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.dashboard-name {
+  font-size: 1rem;
+  color: $color-text-muted;
+  margin-bottom: 0.4rem;
+}
+
+.dashboard-matricula {
+  font-size: 0.95rem;
+  color: $color-text-muted;
+}
+
+.logout-button {
+  margin-top: 1rem !important;
+}
+
+// ============================================================
+// Home Page
+// ============================================================
+.home-container {
+  padding-top: 6rem !important;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: $color-text-muted;
+  margin-top: 0.5rem;
+}
+
+// ============================================================
+// Error 404
+// ============================================================
+.error404-container {
+  padding-top: 6rem !important;
+}
+
+.error404-title {
+  margin-top: 1rem !important;
+  color: #333;
+}
+
