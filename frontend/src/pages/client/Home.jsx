@@ -9,7 +9,7 @@ export function Home() {
       <Segment padded="very" basic textAlign="center" className="home-segment">
         <Icon name="graduation cap" size="huge" color="teal" />
         <Header as="h1" color="teal">
-          CampusConnect
+          CampusTrack
         </Header>
         <Header.Subheader as="p" className="home-subtitle">
           Plataforma Escolar de Gestión de Usuarios

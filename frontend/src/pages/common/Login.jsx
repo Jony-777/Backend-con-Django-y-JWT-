@@ -50,7 +50,7 @@ export function Login() {
         <Header as="h2" textAlign="center" className="login-header">
           <Icon name="graduation cap" color="teal" />
           <Header.Content>
-            CampusConnect
+            CampusTrack
             <Header.Subheader>Inicia sesión en tu cuenta</Header.Subheader>
           </Header.Content>
         </Header>

@@ -55,7 +55,7 @@ export function Register() {
         <Header as="h2" textAlign="center" className="register-header">
           <Icon name="graduation cap" color="teal" />
           <Header.Content>
-            CampusConnect
+            CampusTrack
             <Header.Subheader>Crea tu cuenta escolar</Header.Subheader>
           </Header.Content>
         </Header>

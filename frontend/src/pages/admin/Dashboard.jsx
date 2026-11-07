@@ -22,7 +22,7 @@ export function Dashboard() {
           <Icon name="graduation cap" />
           <Header.Content>
             Dashboard
-            <Header.Subheader>Plataforma Escolar CampusConnect</Header.Subheader>
+            <Header.Subheader>Plataforma Escolar CampusTrack</Header.Subheader>
           </Header.Content>
         </Header>
 
